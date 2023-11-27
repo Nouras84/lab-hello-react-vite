@@ -1,0 +1,100 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+header {
+  background: rgb(1, 26, 59);
+  height: 400px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+footer {
+  display: flex;
+
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+  gap: 120px; /* Adjust space between icons */
+}
+
+.footer-icon {
+  height: 80px; /* Adjust the height to make icons smaller */
+  width: auto; /* Maintain aspect ratio */
+  margin-top: 40px;
+}
+.hamburger-icon {
+  position: absolute;
+  top: 50px; /* Adjust the distance from the top of the page */
+  right: 40px; /* Adjust the distance from the right of the page */
+  height: 10px; /* Adjust the size as needed */
+  width: auto; /* Keeps the aspect ratio of the image */
+}
+
+.logo-icon {
+  position: absolute;
+  top: 40px; /* Adjust the distance from the top of the page */
+  left: 30px; /* Adjust the distance from the left of the page */
+  height: 50px; /* Adjust the size as needed */
+  width: auto; /* Keeps the aspect ratio of the image */
+}
+.main-heading {
+  padding-left: 24px;
+  padding-top: 140px;
+  font-size: 42px;
+  color: white;
+}
+.sub-heading {
+  padding-left: 24px;
+
+  font-size: 16px;
+  color: white;
+}
+
+.button {
+  margin-left: 24px;
+  padding: 14px;
+}
+.icon-text-h {
+  font-size: 20px;
+}
+
+.icon-text-sub {
+  font-size: 14px;
+  color: gray;
+}
+/* .logo:hover {
+  filter: drosp-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
